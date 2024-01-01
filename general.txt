@@ -1,0 +1,3 @@
+social.jsx // change insta handel
+header.jsx //change resume
+about.jsx //change resume

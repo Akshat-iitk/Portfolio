@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = (props) => {
+
   window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header");
     if (this.scrollY >= 80) header.classList.add("scroll-header");
@@ -29,10 +30,9 @@ const Header = (props) => {
       setThemeIcon(<i className="uil uil-moon"></i>);
     }
   };
-
   return (
     <header className="header">
-      <nav className="nav container">
+      <nav  className={curTheme === "Bright" ? "nav container rounded-xl bg-zinc-100 p-1 " : "nav container rounded-xl"}>
         <a href="index.html" className="nav__logo">
           AT
         </a>

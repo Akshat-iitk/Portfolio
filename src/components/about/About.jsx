@@ -19,7 +19,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I'm a full stack web developer focused on building functional,
+            I'm a full stack web Enthusiast focused on building functional,
             beautiful, and scalable websites. I have built various types of full
             stack projects. I have experience in using HTML, CSS, JS, React JS,
             Mongo, etc to build websites and applications.With expertise in computer vision and image processing, I combine technology and visual data analysis to deliver innovative solutions.

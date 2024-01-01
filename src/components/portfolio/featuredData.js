@@ -1,18 +1,18 @@
 export const featuredData = [
   {
-    url: "h",
-    gitUrl: "https://github.com/Vedantadlak/GEEK-CART",
-    liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
-    mainHeader: "GEEK CART",
-    mainContent: `A shopping cart web application made using React and styled through Chakra UI.`,
+    url: "https://youtu.be/Zv37wNzxfEw",
+    gitUrl: "https://github.com/Akshat-iitk/CareerCraft",
+    liveUrl: "https://carrercraft.netlify.app/",
+    mainHeader: "CareerCraft",
+    mainContent: `A Responsive React Job Portal web application made using React and styled using Headless UI and tailwind.`,
     probDescription: ``,
-    featDescription: `Build using React and styled through Chakra UI | Authentication done using Firebase Authentication | Seller/Admin Login done using Firebase Admin SDK with Node.js, Express.js Backend |Implemented Seller/Admin ”Add Product” functionality and used Firebase- Firestore Database for storing data | 
+    featDescription: `Build using React and styled through headless UI and tailwind | Navigate through various pages using React routing | Added react-toolkit for usestate variable | Seperate login/Signup for User and Company | CareerCraft has an outstanding, responsive header for mobile users | Crafted with different components.Every section is designed with your ease of use in mind 
  Deployed live using Netlify`,
   },
   {
     url: "h",
     gitUrl: "https://github.com/Ameen-Here/slack-website-clone",
-    liveUrl: "h",
+    
     mainHeader: "Food Villa",
     mainContent: `A Food ordering web application made using React and styled through Tailwind CSS .`,
     probDescription: ``,
@@ -25,6 +25,7 @@ export const featuredData = [
 
     gitUrl: "https://github.com/Ameen-Here/portfolio",
     mainHeader: "Personal Portfolio",
+    liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
     mainContent:
       "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
     featDescription: `Responsive across devices | Dark theme `,

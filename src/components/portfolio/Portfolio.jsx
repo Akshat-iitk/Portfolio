@@ -8,10 +8,6 @@ import { featuredData } from "./featuredData";
 const Portfolio = () => {
   const [showContent, setShowContent] = useState(featuredData);
 
-  
-
-  
-
   return (
     <section className="section portfolio" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
