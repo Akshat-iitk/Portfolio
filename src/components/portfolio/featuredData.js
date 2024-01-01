@@ -27,7 +27,8 @@ export const featuredData = [
     liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
     mainContent:
       "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
-    featDescription: `Responsive across devices | Dark theme `,
+      probDescription: `React | Tailwind | Chakra UI | React Libraires | etc. `,
+    featDescription: `Responsive across devices | Dark theme using Chakra UI | Smooth Scrolling among components | Button to navigate to home of the page`,
   },
   {
     url: "h",

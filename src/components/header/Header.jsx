@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = (props) => {
+  useEffect(() => {
+    switchTheme();
+  }, []);
 
   window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header");
