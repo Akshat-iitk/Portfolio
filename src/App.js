@@ -29,7 +29,6 @@ function App() {
         <Skills />
         <Contact />
       </main>
-
       <Footer />
       <ScrollUp />
     </div>

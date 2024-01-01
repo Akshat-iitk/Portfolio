@@ -14,10 +14,11 @@ const Portfolio = () => {
       <span className="section__subtitle">Most recent works</span>
 
       <div className="portfolio__lists container grid">
-        {showContent.map((itemData) => {
+        {showContent.map((itemData,index) => {
           return (
-            <div className="portfolio__list">
-              <div className="portfolio__left">
+            <>
+            <div className="portfolio__list" key={index}>
+              <div className="portfolio__left" key={index}>
                 <ReactPlayer
                   className="portfolio__video"
                   width="100%"
@@ -49,7 +50,7 @@ const Portfolio = () => {
               </div>
 
               <div className="portfolio__description">
-                <h2 className="portfolio__header">{itemData.mainHeader}</h2>
+                <h2 className="portfolio__header font-semibold">{itemData.mainHeader}</h2>
                 <p className="portfolio__sub-description">
                   {itemData.mainContent}
                 </p>
@@ -57,7 +58,7 @@ const Portfolio = () => {
                 {itemData.probDescription && (
                   <>
                     <h2 className="portfolio__header">
-                      What problem it solves
+                      TechStack
                     </h2>
                     <p className="portfolio__sub-description">
                       {itemData.probDescription}
@@ -75,6 +76,8 @@ const Portfolio = () => {
                 )}
               </div>
             </div>
+              <hr className=" opacity-2"/>
+              </>
           );
         })}
       </div>
