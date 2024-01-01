@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">VA</h1>
+        <h1 className="footer__title">AT</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://github.com/Vedantadlak/"
+            href="https://github.com/akshat-iitk/"
             className="home__social-icon"
             target="_blank"
           >
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; Vedant Adlak. All rights reserved
+          &#169; Akshat Tiwari. All rights reserved
         </span>
       </div>
     </footer>

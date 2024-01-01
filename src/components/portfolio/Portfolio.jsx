@@ -28,7 +28,7 @@ const Portfolio = () => {
                   light={true}
                 />
 
-                <div className="portfolio__links">
+                <div className="portfolio__links" key={index}>
                   <a
                     href={itemData.gitUrl}
                     target="_blank"
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 </div>
               </div>
 
-              <div className="portfolio__description">
+              <div className="portfolio__description" key={index}>
                 <h2 className="portfolio__header font-semibold">{itemData.mainHeader}</h2>
                 <p className="portfolio__sub-description">
                   {itemData.mainContent}

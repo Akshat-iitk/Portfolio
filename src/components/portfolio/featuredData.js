@@ -31,11 +31,11 @@ export const featuredData = [
     featDescription: `Responsive across devices | Dark theme using Chakra UI | Smooth Scrolling among components | Button to navigate to home of the page`,
   },
   {
-    url: "h",
+    url: "https://youtu.be/5drtQWkh_qs",
 
-    gitUrl: "https://github.com/Ameen-Here/portfolio",
+    gitUrl: "https://github.com/Akshat-iitk/CurrencyChange",
     mainHeader: "Currency Convertor",
-    liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
+    liveUrl: "https://currencychange-by-at.netlify.app/",
     mainContent:
       "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
     featDescription: `Responsive across devices | Dark theme `,
