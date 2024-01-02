@@ -27,9 +27,9 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/drive/folders/16IU8Vly2tZRyeJZ6XY6-7D4KnSEF5EF2"
+            href=""
             target="_blank"
-            className="button button--flex"
+            className="button button--flex hover:opacity-90"
           >
             Resume
            

@@ -5,19 +5,19 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">AT</h1>
+        <h1 className="footer__title font-semibold ">AKSHAT Tiwari</h1>
         <ul className="footer__list">
-          <li>
+          <li className=" hover:scale-105">
             <a href="#about" className="footer__link">
               About
             </a>
           </li>
-          <li>
+          <li className=" hover:scale-105">
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
           </li>
-          <li>
+          <li className=" hover:scale-105">
             <a href="#skills" className="footer__link">
               Skills
             </a>
@@ -34,20 +34,20 @@ const Footer = () => {
             <span className="social__small-Text">Github</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/vedant-adlak-4158a8257/"
+            href="https://codeforces.com/profile/captain1729"
             className="home__social-icon"
             target="_blank"
           >
-            <i class="bx bxl-linkedin-square"></i>{" "}
-            <span className="social__small-Text">LinkedIn</span>
+            <i className="bx bx-code-alt"></i>{" "}
+            <span className="social__small-Text">Codeforces</span>
           </a>
           <a
-            href="https://instagram.com/vedant_adlak21?igshid=NGExMmI2YTkyZg"
+            href="https://www.codechef.com/users/akshat_2k22"
             className="home__social-icon"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>{" "}
-            <span className="social__small-Text">Instagram</span>
+            <i className="bx bx-code-alt"></i>{" "}
+            <span className="social__small-Text">CodeChef</span>
           </a>
         </div>
 

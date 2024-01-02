@@ -13,10 +13,13 @@ export const Data = () => {
           onInit={(typewriter) => {
             typewriter
               .typeString("Hello World!!")
-              .pauseFor(1500)
+              .pauseFor(1000)
               .deleteAll()
               .typeString("Web Ethusiast")
-              .pauseFor(4000)
+              .pauseFor(3000)
+              .deleteAll()
+              .typeString("Machine Learning Enthusiast")
+              .pauseFor(2000)
               .deleteAll()
               .start();
           }}
@@ -26,7 +29,7 @@ export const Data = () => {
         I'm a Web development enthusiast specializing in <b>MERN</b> stack  with experience in computer vision and image processing, I combine technology and visual data analysis to deliver innovative solutions.
       </p> 
 
-      <a href="#contact" className="button button--flex ">
+      <a href="#contact" className="button button--flex hover:scale-105">
         Say Hello{" "}
          </a>
     </div>

@@ -54,7 +54,7 @@ const Header = (props) => {
             </li>
             <li className="nav__item">
               <a
-                href="https://drive.google.com/drive/folders/16IU8Vly2tZRyeJZ6XY6-7D4KnSEF5EF2"
+                href=""
                 target="_blank"
                 className="nav__link"
               >
