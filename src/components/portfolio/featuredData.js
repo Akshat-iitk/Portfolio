@@ -26,7 +26,7 @@ export const featuredData = [
     mainHeader: "Personal Portfolio",
     liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
     mainContent:
-      "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
+      " ",
       probDescription: `React | Tailwind | Chakra UI | React Libraires | etc. `,
     featDescription: `Responsive across devices | Dark theme using Chakra UI | Smooth Scrolling among components | Button to navigate to home of the page`,
   },
@@ -36,9 +36,10 @@ export const featuredData = [
     gitUrl: "https://github.com/Akshat-iitk/CurrencyChange",
     mainHeader: "Currency Convertor",
     liveUrl: "https://currencychange-by-at.netlify.app/",
+    probDescription : "HTML | CSS | JS | Tailwind | FetchAPI | Fonticons etc" ,
     mainContent:
-      "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
-    featDescription: `Responsive across devices | Dark theme `,
+      "A resposive currency convertor using core HTML | CSS | JS | Tailwind  ",
+    featDescription: `Responsive across devices | Change currency with flag | Exchange button to exchange currency with flag `,
   },
   
 ];
