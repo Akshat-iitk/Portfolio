@@ -18,7 +18,7 @@ const Portfolio = () => {
           return (
             <>
             <div className="portfolio__list" key={index}>
-              <div className="portfolio__left" key={index}>
+              <div className="portfolio__left" >
                 <ReactPlayer
                   className="portfolio__video"
                   width="100%"
@@ -28,7 +28,7 @@ const Portfolio = () => {
                   light={true}
                 />
 
-                <div className="portfolio__links" key={index}>
+                <div className="portfolio__links">
                   <a
                     href={itemData.gitUrl}
                     target="_blank"
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 </div>
               </div>
 
-              <div className="portfolio__description" key={index}>
+              <div className="portfolio__description">
                 <h2 className="portfolio__header font-semibold">{itemData.mainHeader}</h2>
                 <p className="portfolio__sub-description">
                   {itemData.mainContent}
@@ -76,7 +76,6 @@ const Portfolio = () => {
                 )}
               </div>
             </div>
-              <hr className=" opacity-2"/>
               </>
           );
         })}

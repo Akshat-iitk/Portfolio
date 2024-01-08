@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35ba9e49.css",
+    "main.js": "/static/js/main.b027e073.js",
+    "static/media/DJV MAR 1011-04.jpg": "/static/media/DJV MAR 1011-04.5d015b501239727a9120.jpg",
+    "index.html": "/index.html",
+    "main.35ba9e49.css.map": "/static/css/main.35ba9e49.css.map",
+    "main.b027e073.js.map": "/static/js/main.b027e073.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35ba9e49.css",
+    "static/js/main.b027e073.js"
+  ]
+}

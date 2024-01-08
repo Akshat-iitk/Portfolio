@@ -1,12 +1,14 @@
 import React from "react";
 import { FaGraduationCap } from "react-icons/fa";
+import { Icon } from '@iconify/react';
+import "./info.css"
 const Info = () => {
   return (
     <div className="about__info grid ">
       <div className="about__box items-center flex flex-col hover:scale-95 cursor-pointer about__icon">
-      <FaGraduationCap size={30}/>
-       <h3 className=" text-sm opacity-85">Education</h3>
-       <p className="text-sm opacity-75">I am 3rd year undergrade at <b>IIT Kanpur</b></p>
+      <i class='bx bxs-graduation'></i>
+       <h3 className=" text-sm opacity-85 about__title">Education</h3>
+       <p className="text-sm opacity-75 about__subtitle">I am a third-year undergraduate student at  <b>IIT Kanpur</b></p>
       </div>
       <div className="about__box hover:scale-95 cursor-pointer">
         <i className="bx bx-briefcase-alt about__icon"></i>

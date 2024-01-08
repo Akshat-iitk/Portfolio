@@ -14,20 +14,20 @@ export const featuredData = [
     gitUrl: "https://github.com/Akshat-iitk/Caption-Craze",
     
     mainHeader: "CaptionCraze",
-    mainContent: `A backend (Node, Express) extensive website where user can effortlessly create a post with a caption and discription, with user authentication`,
+    mainContent: `A backend (Node, Express) extensive website where user can effortlessly create a post with a caption and description, with user authentication`,
     probDescription: `Node | Express | MongoDB | Mongoose | Passport.js | EJS | JS | Tailwind | Bootstrap | Multer  `,
     featDescription: `Created with Node, Express, and EJS | Responsive Login and SignUP page | User authentication using Passport authentication middleware from nodejs | For posting images, Multer is employed, | Additionally, users can easily update their profile images. | Other transition effects using core JS `,
   },
 
   {
-    url: "h",
+    url: "https://youtu.be/xSpL5-IGgac",
 
     gitUrl: "https://github.com/Akshat-iitk/Portfolio",
     mainHeader: "Personal Portfolio",
-    liveUrl: "https://aesthetic-genie-e68104.netlify.app/",
+    liveUrl: "https://portfolio-akshat.netlify.app/",
     mainContent:
-      " ",
-      probDescription: `React | Tailwind | Chakra UI | React Libraires | etc. `,
+      "My personal portfolio website to showcase my projects and skillset. Created using HTML, CSS, ReactJS, Chakra UI, etc. All my contact details are provided on this website, feel free to reach out.",
+      probDescription: `React | Tailwind | Chakra UI | React Libraries | etc. `,
     featDescription: `Responsive across devices | Dark theme using Chakra UI | Smooth Scrolling among components | Button to navigate to home of the page`,
   },
   {

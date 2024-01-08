@@ -27,7 +27,7 @@ const About = () => {
           </p>
 
           <a
-            href=""
+            href="https://drive.google.com/file/d/1Agf-5AYB39Qk6ocF1VLNTV6Q9R9fa4E1/view?usp=sharing"
             target="_blank"
             className="button button--flex hover:opacity-90"
           >
